@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/pocketcbk/static/css/main.25111d30.chunk.css",
-    "main.js": "/pocketcbk/static/js/main.38f9811b.chunk.js",
-    "main.js.map": "/pocketcbk/static/js/main.38f9811b.chunk.js.map",
+    "main.js": "/pocketcbk/static/js/main.85e18818.chunk.js",
+    "main.js.map": "/pocketcbk/static/js/main.85e18818.chunk.js.map",
     "runtime-main.js": "/pocketcbk/static/js/runtime-main.b538f4c4.js",
     "runtime-main.js.map": "/pocketcbk/static/js/runtime-main.b538f4c4.js.map",
-    "static/js/2.df1def3e.chunk.js": "/pocketcbk/static/js/2.df1def3e.chunk.js",
-    "static/js/2.df1def3e.chunk.js.map": "/pocketcbk/static/js/2.df1def3e.chunk.js.map",
+    "static/js/2.eb3c682b.chunk.js": "/pocketcbk/static/js/2.eb3c682b.chunk.js",
+    "static/js/2.eb3c682b.chunk.js.map": "/pocketcbk/static/js/2.eb3c682b.chunk.js.map",
     "static/js/3.c2394263.chunk.js": "/pocketcbk/static/js/3.c2394263.chunk.js",
     "static/js/3.c2394263.chunk.js.map": "/pocketcbk/static/js/3.c2394263.chunk.js.map",
     "index.html": "/pocketcbk/index.html",
     "static/css/main.25111d30.chunk.css.map": "/pocketcbk/static/css/main.25111d30.chunk.css.map",
-    "static/js/2.df1def3e.chunk.js.LICENSE.txt": "/pocketcbk/static/js/2.df1def3e.chunk.js.LICENSE.txt",
+    "static/js/2.eb3c682b.chunk.js.LICENSE.txt": "/pocketcbk/static/js/2.eb3c682b.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/pocketcbk/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b538f4c4.js",
-    "static/js/2.df1def3e.chunk.js",
+    "static/js/2.eb3c682b.chunk.js",
     "static/css/main.25111d30.chunk.css",
-    "static/js/main.38f9811b.chunk.js"
+    "static/js/main.85e18818.chunk.js"
   ]
 }
