@@ -59,20 +59,24 @@ function RecipeList() {
     return 'Loading ...'
   }
 return (
-    <div>
-    <ul>
+    <div className="container">
       {
        recipe.map((r) => {
          return (
-          <li key={r.sys.id}>
-            <Link to={`/recipe/${r.sys.id}`}>
-              {r.name}
-            </Link>
-          </li>
+            <div key={r.sys.id} className="receipeRow">
+                <div className="receipeRow-image">
+                    <img src={r.picture.url} />
+                </div>
+                <div  className="receipeRow-link">
+                    <Link to={`/recipe/${r.sys.id}`}>
+                    {r.name}
+                    </Link>
+                </div>
+            </div>
          )
        }) 
       }
-    </ul>
+
   </div>
 )
 }
