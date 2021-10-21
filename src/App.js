@@ -11,16 +11,19 @@ import {
 } from "react-router-dom";
 import RecipeList  from './RecipeList';
 import Recipe from './Recipe'
+import { matchPath } from "react-router";
 
 function App() {
+  let match = useRouteMatch();
+  console.log(match.url)
   return (
     <Router>
     <div className="App">
       <h1>My Pocket Cookbook</h1>
     </div>
     <Switch>
-      <Route exact path="/"><RecipeList/></Route>
-      <Route path="/recipe/:recipeId"><Recipe/></Route>
+      <Route exact path={`/pocketcbk/`} ><RecipeList/></Route>
+      <Route path={`/pocketcbk/recipe/:recipeId`}><Recipe/></Route>
     </Switch>
     </Router>
   );

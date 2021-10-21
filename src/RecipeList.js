@@ -68,7 +68,7 @@ return (
                     <img src={r.picture.url} />
                 </div>
                 <div  className="receipeRow-link">
-                    <Link to={`/recipe/${r.sys.id}`}>
+                    <Link to={`/pocketcbk/recipe/${r.sys.id}`}>
                     {r.name}
                     </Link>
                 </div>
