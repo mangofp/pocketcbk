@@ -14,8 +14,6 @@ import Recipe from './Recipe'
 import { matchPath } from "react-router";
 
 function App() {
-  let match = useRouteMatch();
-  console.log(match.url)
   return (
     <Router>
     <div className="App">
