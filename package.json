@@ -1,7 +1,7 @@
 {
   "name": "pocketcbk",
   "version": "0.1.0",
-  "homepage": "http://yuribenjamin.github.io/my-app",
+  "homepage": "http://mangofp.github.io/pocketcbk",
   "private": true,
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.4.0",
