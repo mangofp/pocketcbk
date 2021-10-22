@@ -7,7 +7,8 @@ import {
   Route,
   Link,
   useRouteMatch,
-  useParams
+  useParams,
+  Redirect
 } from "react-router-dom";
 import RecipeList  from './RecipeList';
 import Recipe from './Recipe'
@@ -22,6 +23,7 @@ function App() {
     <Switch>
       <Route exact path={`/pocketcbk/`} ><RecipeList/></Route>
       <Route path={`/pocketcbk/recipe/:recipeId`}><Recipe/></Route>
+      <Redirect from="/" to="/pocketcbk/"/>
     </Switch>
     </Router>
   );
